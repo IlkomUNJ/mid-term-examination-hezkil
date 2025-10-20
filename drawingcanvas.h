@@ -21,6 +21,7 @@ class DrawingCanvas : public QWidget
 private:
     const int WINDOW_WIDTH=600;
     const int WINDOW_HEIGHT=400;
+    QVector<QPoint> m_segment_candidates;
 
 public:
     explicit DrawingCanvas(QWidget *parent = nullptr);
